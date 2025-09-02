@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Slider</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="img/1.png" alt="Image 1" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Monkey D. Luffy</div>
+            <figure>
+              <img src="img/luffy.png" alt="Avatar 1" />
+              <figcaption>
+                MUGIWARA PIRATE CAPTAIN / THE FUTURE PIRATE KING
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Monkey D. Luffy, pemakan Buah Iblis karet, berlayar mengumpulkan
+              kru, mengalahkan musuh kuat, kehilangan Ace, berlatih dua tahun,
+              lalu bangkit sebagai Yonko dengan kekuatan Nika demi impian
+              menjadi Raja Bajak Laut.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.png" alt="Image 2" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Roronoa Zoro</div>
+            <figure>
+              <img src="img/zoro.png" alt="Avatar 2" />
+              <figcaption>
+                PIRATES HUNTER / THE FUTURE STRONGEST SWORDSMAN
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Roronoa Zoro adalah pendekar pedang yang bergabung dengan Luffy
+              untuk mengejar mimpinya menjadi yang terkuat di dunia.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/3.png" alt="Image 3" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Zame Jimbe</div>
+            <figure>
+              <img src="img/jimbe.png" alt="Avatar 3" />
+              <figcaption>SEA KNIGHT / THE FUTURE SEA HEROES</figcaption>
+            </figure>
+            <div class="desc">
+              Zame Jimbe adalah ksatria lautan yang bergabung dengan Luffy untuk
+              mengejar mimpinya menjadi yang terkuat di dunia.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/4.png" alt="Image 4" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Vinsmoke Sanji</div>
+            <figure>
+              <img src="img/sanji.png" alt="Avatar 4" />
+              <figcaption>BLACK LEG / THE FUTURE MASTER CHEF</figcaption>
+            </figure>
+            <div class="desc">
+              Vinsmoke Sanji adalah seorang koki kapal yang bergabung dengan
+              Luffy untuk mengejar mimpinya menjadi yang terkuat di dunia.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5.png" alt="Image 5" />
+          <div class="detail">
+            <div class="title">One Piece</div>
+            <div class="name">Loki son of Harald</div>
+            <figure>
+              <img src="img/loki.png" alt="Avatar 5" />
+              <figcaption>
+                LOKI THE RED SHADOW / THE FUTURE KING OF ELBAPH
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Loki son of Harald adalah seorang pangeran dari elbaph yang
+              bergabung dengan Luffy untuk mengejar mimpinya menjadi yang
+              terkuat di dunia.
+            </div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="thumbnail">
+        <div class="item">
+          <img src="img/1.png" alt="thumbnail 1" />
+          <div class="detail">
+            <div class="name">Monkey D. Luffy</div>
+            <blockquote>"Pistollll!!"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.png" alt="thumbnail 2" />
+          <div class="detail">
+            <div class="name">Roronoa Zoro</div>
+            <blockquote>"Oniiii Giriiiii!"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/3.png" alt="thumbnail 3" />
+          <div class="detail">
+            <div class="name">Zame Jimbe</div>
+            <blockquote>"Gyojin karatee!"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/4.png" alt="thumbnail 4" />
+          <div class="detail">
+            <div class="name">Vinsmoke Sanji</div>
+            <blockquote>"Diable Jamble!"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5.png" alt="thumbnail 5" />
+          <div class="detail">
+            <div class="name">Loki son of Harald</div>
+            <blockquote>"Hakoku Sovereignty!"</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+
+      <div class="loading-bar"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
